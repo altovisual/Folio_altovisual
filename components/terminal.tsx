@@ -162,9 +162,7 @@ export default function Terminal() {
               <li>
                 <span className="text-white font-bold">help</span> - {t.helpDescriptions.help}
               </li>
-              <li>
-                <span className="text-white font-bold">scan</span> - {t.helpDescriptions.scan}
-              </li>
+              
             </ul>
           </div>
         )
