@@ -6,7 +6,7 @@ import { Language, translations } from '@/lib/translations'
 interface LanguageContextType {
   language: Language
   setLanguage: (lang: Language) => void
-  t: typeof translations.en
+  t: any
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
@@ -14,7 +14,6 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('en')
 
-  // Load language from localStorage on mount
   useEffect(() => {
     const savedLanguage = localStorage.getItem('portfolio-language') as Language
     if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'es')) {
@@ -22,7 +21,6 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
-  // Save language to localStorage when it changes
   useEffect(() => {
     localStorage.setItem('portfolio-language', language)
   }, [language])

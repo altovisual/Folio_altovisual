@@ -48,65 +48,48 @@ export const translations = {
     aboutDescription: "I specialize in creating complete digital solutions, from user interface design to backend implementation, with a growing focus on blockchain technologies and decentralized applications.",
     personalBio: "Personal Bio:",
     quickFacts: "Quick Facts:",
-    location: "Location:",
-    education: "Education:",
-    specialty: "Specialty:",
-    certifications: "Certifications:",
+    locationLabel: "Location:",
+    educationLabel: "Education:",
+    specialtyLabel: "Specialty:",
+    certificationsLabel: "Certifications:",
     
     // Skills section
     skillsTitle: "Technical Skills",
-    frontendDev: "Frontend Development",
-    backendDev: "Backend Development", 
-    design: "Design & UX/UI",
-    blockchain: "Blockchain & Web3",
-    tools: "Tools & Technologies",
+    programmingLanguages: "Programming Languages & Frameworks",
+    frontendTechnologies: "Frontend Technologies",
+    designTools: "Design & UX/UI Tools",
+    databases: "Databases & Cloud",
+    blockchainTech: "Blockchain & Web3",
+    devTools: "Development Tools & Platforms",
+    aiTools: "AI & Prompt Engineering",
     
     // Experience section
     experienceTitle: "Work Experience",
     
     // Projects section
     projectsTitle: "Featured Projects",
-    
-    // Education section
-    educationTitle: "Education & Learning",
-    
-    // Certifications section
-    certificationsTitle: "Certifications & Achievements",
-    
-    // Contact section
-    contactTitle: "Get In Touch",
-    
-    // Projects section content
     projectsDescription: "Featured development projects showcasing full stack and design capabilities",
     technologies: "Technologies:",
     
-    // Certifications section content
-    certificationsTitle: "Certifications",
+    // Education section
+    educationTitle: "Education & Learning",
+    educationDegree: "Degree:",
+    educationGPA: "GPA:",
+    educationDate: "Date:",
+    relevantCoursework: "Relevant Coursework:",
+    
+    // Certifications section
+    certificationsTitle: "Certifications & Achievements",
     competitionsTitle: "Competitions & Achievements", 
     initiativesTitle: "Development Initiatives",
     
-    // Contact section content
+    // Contact section
+    contactTitle: "Get In Touch",
     email: "Email",
     phone: "Phone",
     location: "Location",
     linkedin: "LinkedIn",
     github: "GitHub",
-    
-    // Skills section content
-    programmingLanguages: "Programming Languages & Frameworks",
-    frontendTechnologies: "Frontend Technologies",
-    backendTechnologies: "Backend Technologies",
-    designTools: "Design & UX/UI Tools",
-    blockchainTech: "Blockchain & Web3",
-    devTools: "Development Tools & Platforms",
-    databases: "Databases & Cloud",
-    aiTools: "AI & Prompt Engineering",
-    
-    // Education section content
-    educationDegree: "Degree:",
-    educationGPA: "GPA:",
-    educationDate: "Date:",
-    relevantCoursework: "Relevant Coursework:",
     
     // Skills data
     skills: {
@@ -212,65 +195,48 @@ export const translations = {
     aboutDescription: "Me especializo en crear soluciones digitales completas, desde el diseño de interfaces de usuario hasta la implementación del backend, con un enfoque creciente en tecnologías blockchain y aplicaciones descentralizadas.",
     personalBio: "Biografía Personal:",
     quickFacts: "Datos Rápidos:",
-    location: "Ubicación:",
-    education: "Educación:",
-    specialty: "Especialidad:",
-    certifications: "Certificaciones:",
+    locationLabel: "Ubicación:",
+    educationLabel: "Educación:",
+    specialtyLabel: "Especialidad:",
+    certificationsLabel: "Certificaciones:",
     
     // Skills section
     skillsTitle: "Habilidades Técnicas",
-    frontendDev: "Desarrollo Frontend",
-    backendDev: "Desarrollo Backend",
-    design: "Diseño y UX/UI",
-    blockchain: "Blockchain y Web3",
-    tools: "Herramientas y Tecnologías",
+    programmingLanguages: "Lenguajes de Programación y Frameworks",
+    frontendTechnologies: "Tecnologías Frontend",
+    designTools: "Herramientas de Diseño y UX/UI",
+    databases: "Bases de Datos y Nube",
+    blockchainTech: "Blockchain y Web3",
+    devTools: "Herramientas de Desarrollo y Plataformas",
+    aiTools: "IA e Ingeniería de Prompts",
     
     // Experience section
     experienceTitle: "Experiencia Laboral",
     
     // Projects section
     projectsTitle: "Proyectos Destacados",
-    
-    // Education section
-    educationTitle: "Educación y Aprendizaje",
-    
-    // Certifications section
-    certificationsTitle: "Certificaciones y Logros",
-    
-    // Contact section
-    contactTitle: "Ponte en Contacto",
-    
-    // Projects section content
     projectsDescription: "Proyectos de desarrollo destacados que muestran capacidades full stack y de diseño",
     technologies: "Tecnologías:",
     
-    // Certifications section content
-    certificationsTitle: "Certificaciones",
+    // Education section
+    educationTitle: "Educación y Aprendizaje",
+    educationDegree: "Título:",
+    educationGPA: "Promedio:",
+    educationDate: "Fecha:",
+    relevantCoursework: "Materias Relevantes:",
+    
+    // Certifications section
+    certificationsTitle: "Certificaciones y Logros",
     competitionsTitle: "Competencias y Logros",
     initiativesTitle: "Iniciativas de Desarrollo",
     
-    // Contact section content
+    // Contact section
+    contactTitle: "Ponte en Contacto",
     email: "Correo",
     phone: "Teléfono", 
     location: "Ubicación",
     linkedin: "LinkedIn",
     github: "GitHub",
-    
-    // Skills section content
-    programmingLanguages: "Lenguajes de Programación y Frameworks",
-    frontendTechnologies: "Tecnologías Frontend",
-    backendTechnologies: "Tecnologías Backend",
-    designTools: "Herramientas de Diseño y UX/UI",
-    blockchainTech: "Blockchain y Web3",
-    devTools: "Herramientas de Desarrollo y Plataformas",
-    databases: "Bases de Datos y Nube",
-    aiTools: "IA e Ingeniería de Prompts",
-    
-    // Education section content
-    educationDegree: "Título:",
-    educationGPA: "Promedio:",
-    educationDate: "Fecha:",
-    relevantCoursework: "Materias Relevantes:",
     
     // Skills data
     skills: {

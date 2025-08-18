@@ -68,16 +68,16 @@ export function AboutSection() {
             <h3 className="text-primary font-bold mb-2">{t.quickFacts}</h3>
             <ul className="space-y-1">
               <li>
-                <span className="text-muted-foreground">{t.location}</span> Remote / Global
+                <span className="text-muted-foreground">{t.locationLabel}</span> Remote / Global
               </li>
               <li>
-                <span className="text-muted-foreground">{t.education}</span> Computer Science & Design
+                <span className="text-muted-foreground">{t.educationLabel}</span> Computer Science & Design
               </li>
               <li>
-                <span className="text-muted-foreground">{t.specialty}</span> Full Stack Development, UI/UX Design, Blockchain
+                <span className="text-muted-foreground">{t.specialtyLabel}</span> Full Stack Development, UI/UX Design, Blockchain
               </li>
               <li>
-                <span className="text-muted-foreground">{t.certifications}</span> React, Node.js, AWS, Solidity
+                <span className="text-muted-foreground">{t.certificationsLabel}</span> React, Node.js, AWS, Solidity
               </li>
             </ul>
           </div>
