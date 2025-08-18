@@ -3,10 +3,12 @@
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import { Language, translations } from '@/lib/translations'
 
+type TranslationKeys = keyof typeof translations.en
+
 interface LanguageContextType {
   language: Language
   setLanguage: (lang: Language) => void
-  t: any
+  t: Record<TranslationKeys, any>
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
@@ -25,10 +27,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('portfolio-language', language)
   }, [language])
 
-  const value = {
+  const value: LanguageContextType = {
     language,
     setLanguage,
-    t: translations[language]
+    t: translations[language] as Record<TranslationKeys, any>
   }
 
   return (

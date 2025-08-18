@@ -12,34 +12,34 @@ export function ContactSection() {
       <div className="space-y-6">
         <div className="flex flex-col gap-3">
           <a
-            href="mailto:contact@altovisual.com"
+            href="mailto:altovisual.ba@gmail.com"
             className="flex items-center text-sm hover:text-primary transition-colors"
-            title={`${t.email}: contact@altovisual.com`}
+            title={`${t.email}: altovisual.ba@gmail.com`}
           >
             <Mail className="h-4 w-4 mr-2 text-primary" />
-            contact@altovisual.com
+            altovisual.ba@gmail.com
           </a>
           <a 
-            href="tel:5513581893" 
+            href="tel:" 
             className="flex items-center text-sm hover:text-primary transition-colors"
-            title={`${t.phone}: 551-358-1893`}
+            title={`${t.phone}: `}
           >
             <Phone className="h-4 w-4 mr-2 text-primary" />
-            551-358-1893
+            
           </a>
           <div className="flex items-center text-sm" title={`${t.location}: ${language === 'es' ? 'Remoto / Global' : 'Remote / Global'}`}>
             <MapPin className="h-4 w-4 mr-2 text-primary" />
             {language === 'es' ? 'Remoto / Global' : 'Remote / Global'}
           </div>
           <a
-            href="https://www.linkedin.com/in/altovisual/"
+            href="www.linkedin.com/in/manuel-mendoza-50695321a"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-sm hover:text-primary transition-colors"
-            title={`${t.linkedin}: linkedin.com/in/altovisual`}
+            title={`${t.linkedin}: linkedin.com/in/manuel-mendoza-50695321a`}
           >
             <Linkedin className="h-4 w-4 mr-2 text-primary" />
-            linkedin.com/in/altovisual
+            linkedin.com/in/manuel-mendoza-50695321a
           </a>
           <a
             href="https://github.com/altovisual"
