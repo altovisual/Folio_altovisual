@@ -25,9 +25,9 @@
 - `crt-toggle.tsx`: CRT effect toggle
 
 ### Specialized Components
-- `ascii-*.tsx`: ASCII art and portrait components
-- `image-ascii-logo.tsx`: Logo with ASCII styling
-- `simple-ascii-logo.tsx`: Simplified ASCII logo
+- `altovisual-*.tsx`: Altovisual art and portrait components
+- `image-altovisual-logo.tsx`: Logo with Altovisual styling
+- `simple-altovisual-logo.tsx`: Simplified Altovisual logo
 
 ### Sections Directory
 - Contains individual portfolio sections (about, education, skills, etc.)

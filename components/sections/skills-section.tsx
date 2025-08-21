@@ -1,4 +1,4 @@
-import { AsciiArt } from "@/components/ascii-art"
+import { AltovisualArt } from "@/components/altovisual-art"
 import { useLanguage } from "@/contexts/language-context"
 
 export function SkillsSection() {
@@ -6,7 +6,7 @@ export function SkillsSection() {
   
   return (
     <div className="space-y-4">
-      <AsciiArt art="skills" />
+      <AltovisualArt art="skills" />
 
       <div className="space-y-6">
         <div>

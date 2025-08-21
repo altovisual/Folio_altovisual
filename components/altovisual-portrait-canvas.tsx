@@ -2,19 +2,19 @@
 
 import { useEffect, useRef } from "react"
 
-interface AsciiPortraitCanvasProps {
+interface AltovisualPortraitCanvasProps {
   width?: number
   height?: number
   contrast?: number
   brightness?: number
 }
 
-export function AsciiPortraitCanvas({
+export function AltovisualPortraitCanvas({
   width = 100,
   height = 120,
   contrast = 1.4, // Fixed value as requested
   brightness = 0.7, // Fixed value as requested
-}: AsciiPortraitCanvasProps) {
+}: AltovisualPortraitCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
@@ -174,7 +174,7 @@ export function AsciiPortraitCanvas({
           // Calculate perceived brightness (human eye is more sensitive to green)
           const brightness = 0.299 * r + 0.587 * g + 0.114 * b
 
-          // Map brightness to ASCII character with more precision
+          // Map brightness to Altovisual character with more precision
           const charIndex = Math.floor((brightness / 255) * (asciiChars.length - 1))
           const char = asciiChars[charIndex]
 

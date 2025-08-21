@@ -1,4 +1,4 @@
-import { AsciiArt } from "@/components/ascii-art"
+import { AltovisualArt } from "@/components/altovisual-art"
 import { useLanguage } from "@/contexts/language-context"
 
 export function EducationSection() {
@@ -6,7 +6,11 @@ export function EducationSection() {
 
   return (
     <div className="space-y-4">
-      <AsciiArt art="education" />
+      <AltovisualArt art="education" />
+
+      <p className="text-sm text-center italic text-muted-foreground px-4">
+        {t.educationIntro}
+      </p>
 
       <div className="space-y-6">
         <div className="p-3 border border-primary/20 rounded bg-primary/5">
@@ -14,10 +18,7 @@ export function EducationSection() {
             {language === 'es' ? 'Universidad Tecnológica' : 'Technology University'}
           </h3>
           <p className="text-sm">
-            <span className="text-muted-foreground">{t.educationDegree}</span> {language === 'es' ? 'Ingeniería en Sistemas Computacionales' : 'B.S. in Computer Systems Engineering'}
-          </p>
-          <p className="text-sm">
-            <span className="text-muted-foreground">{t.educationGPA}</span> 3.8
+            <span className="text-muted-foreground">{t.educationDegree}</span>
           </p>
           <p className="text-xs text-muted-foreground">
             <span>{t.educationDate}</span> {language === 'es' ? 'Diciembre 2022' : 'December 2022'}
@@ -38,7 +39,7 @@ export function EducationSection() {
 
         <div className="p-3 border border-primary/20 rounded bg-primary/5">
           <h3 className="text-primary font-bold">
-            {language === 'es' ? 'Certificaciones y Cursos Especializados' : 'Certifications & Specialized Courses'}
+            {language === 'es' ? 'Cursos Especializados' : 'Specialized Courses'}
           </h3>
           <div className="mt-2 space-y-2">
             <div>

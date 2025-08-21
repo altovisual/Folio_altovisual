@@ -11,7 +11,7 @@ import { ExperienceSection } from "@/components/sections/experience-section"
 import { ProjectsSection } from "@/components/sections/projects-section"
 import { CertificationsSection } from "@/components/sections/certifications-section"
 import { ContactSection } from "@/components/sections/contact-section"
-import { ImageAsciiLogo } from "@/components/image-ascii-logo"
+import { ImageAltovisualLogo } from "@/components/image-altovisual-logo"
 import { useLanguage } from "@/contexts/language-context"
 
 type Command = {
@@ -60,7 +60,7 @@ export default function Terminal() {
         input: "welcome",
         output: (
           <div className="space-y-2">
-            <ImageAsciiLogo />
+            <ImageAltovisualLogo />
             <p className="font-mono text-white">
               {t.welcome}
             </p>
@@ -102,7 +102,7 @@ export default function Terminal() {
             input: "welcome",
             output: (
               <div className="space-y-2">
-                <ImageAsciiLogo />
+                <ImageAltovisualLogo />
                 <p className="font-mono text-white">
                   {t.welcome}
                 </p>

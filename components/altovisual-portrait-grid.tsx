@@ -2,19 +2,19 @@
 
 import { useEffect, useState, useRef } from "react"
 
-interface AsciiPortraitGridProps {
+interface AltovisualPortraitGridProps {
   width?: number
   height?: number
   contrast?: number
   brightness?: number
 }
 
-export function AsciiPortraitGrid({
+export function AltovisualPortraitGrid({
   width = 80,
   height = 100,
   contrast = 1.4, // Fixed value as requested
   brightness = 0.7, // Fixed value as requested
-}: AsciiPortraitGridProps) {
+}: AltovisualPortraitGridProps) {
   const [pixels, setPixels] = useState<Array<{ char: string; color: string }>>([])
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -79,8 +79,8 @@ export function AsciiPortraitGrid({
 
       ctx.putImageData(imageData, 0, 0)
 
-      // Advanced ASCII character set with varying visual weights
-      const asciiChars = [
+      // Advanced Altovisual character set with varying visual weights
+      const altovisualChars = [
         "@",
         "%",
         "#",
@@ -116,7 +116,7 @@ export function AsciiPortraitGrid({
         "7",
         "1",
         "/",
-        "\\",
+        "\",
         "|",
         "(",
         ")",
@@ -157,9 +157,9 @@ export function AsciiPortraitGrid({
           // Calculate perceived brightness
           const brightness = 0.299 * r + 0.587 * g + 0.114 * b
 
-          // Map brightness to ASCII character with more precision
-          const charIndex = Math.floor((brightness / 255) * (asciiChars.length - 1))
-          const char = asciiChars[charIndex]
+          // Map brightness to Altovisual character with more precision
+          const charIndex = Math.floor((brightness / 255) * (altovisualChars.length - 1))
+          const char = altovisualChars[charIndex]
 
           // Add to pixels array with original color
           newPixels.push({
@@ -174,7 +174,7 @@ export function AsciiPortraitGrid({
   }, [width, height, contrast, brightness])
 
   return (
-    <div className="ascii-portrait-grid-container flex justify-center my-4">
+    <div className="altovisual-portrait-grid-container flex justify-center my-4">
       <div
         ref={containerRef}
         className="grid border border-primary/30 rounded p-1 bg-black shadow-lg shadow-primary/20 transition-all duration-300 hover:shadow-primary/40 relative overflow-hidden"

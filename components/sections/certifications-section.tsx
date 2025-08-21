@@ -1,5 +1,5 @@
-import { AsciiArt } from "@/components/ascii-art"
-import { Award, Trophy, Flag } from "lucide-react"
+import { AltovisualArt } from "@/components/altovisual-art"
+import { Award, Trophy, Flag, Star } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function CertificationsSection() {
@@ -7,49 +7,49 @@ export function CertificationsSection() {
   
   return (
     <div className="space-y-4">
-      <AsciiArt art="certifications" />
+      <AltovisualArt art="certifications" />
 
       <div className="space-y-6">
         <div>
           <h3 className="text-primary font-bold mb-2 flex items-center">
-            <Award className="h-4 w-4 mr-2" />
-            {t.certificationsTitle}
+            <Star className="h-4 w-4 mr-2" />
+            {t.competenciesTitle}
           </h3>
           <ul className="space-y-2 pl-6">
             <li className="flex items-start">
               <span className="text-primary mr-2">•</span>
               <div>
                 <p className="font-medium">
-                  {language === 'es' ? 'Desarrollador React Certificado' : 'React Developer Certification'}
+                  {language === 'es' ? 'Desarrollo Avanzado en React y Next.js' : 'Advanced Development in React and Next.js'}
                 </p>
-                <p className="text-xs text-muted-foreground">Meta (Facebook)</p>
+                <p className="text-xs text-muted-foreground">{language === 'es' ? 'Demostrado a través de múltiples proyectos full-stack.' : 'Demonstrated through multiple full-stack projects.'}</p>
               </div>
             </li>
             <li className="flex items-start">
               <span className="text-primary mr-2">•</span>
               <div>
                 <p className="font-medium">
-                  {language === 'es' ? 'Arquitecto de Soluciones AWS' : 'AWS Solutions Architect'}
+                  {language === 'es' ? 'Experiencia Práctica en Despliegue con AWS' : 'Hands-on Experience with AWS Deployment'}
                 </p>
-                <p className="text-xs text-muted-foreground">Amazon Web Services</p>
+                <p className="text-xs text-muted-foreground">{language === 'es' ? 'Gestión y despliegue de aplicaciones en la nube.' : 'Managing and deploying applications in the cloud.'}</p>
               </div>
             </li>
             <li className="flex items-start">
               <span className="text-primary mr-2">•</span>
               <div>
                 <p className="font-medium">
-                  {language === 'es' ? 'Desarrollador Blockchain Certificado' : 'Certified Blockchain Developer'}
+                  {language === 'es' ? 'Desarrollo de Smart Contracts con Solidity' : 'Smart Contract Development with Solidity'}
                 </p>
-                <p className="text-xs text-muted-foreground">Ethereum Foundation</p>
+                <p className="text-xs text-muted-foreground">{language === 'es' ? 'Conocimiento profundo de los principios de blockchain.' : 'In-depth knowledge of blockchain principles.'}</p>
               </div>
             </li>
             <li className="flex items-start">
               <span className="text-primary mr-2">•</span>
               <div>
                 <p className="font-medium">
-                  {language === 'es' ? 'Especialista en UX/UI Design' : 'UX/UI Design Specialist'}
+                  {language === 'es' ? 'Diseño de Experiencia de Usuario (UX/UI)' : 'User Experience (UX/UI) Design'}
                 </p>
-                <p className="text-xs text-muted-foreground">Adobe Certified Expert</p>
+                <p className="text-xs text-muted-foreground">{language === 'es' ? 'Creación de interfaces intuitivas y centradas en el usuario.' : 'Creating intuitive and user-centered interfaces.'}</p>
               </div>
             </li>
           </ul>

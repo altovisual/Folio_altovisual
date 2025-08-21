@@ -2,12 +2,12 @@
 
 import { useEffect, useRef } from "react"
 
-interface AsciiPortraitProps {
+interface AltovisualPortraitProps {
   width?: number
   height?: number
 }
 
-export function AsciiPortrait({ width = 60, height = 80 }: AsciiPortraitProps) {
+export function AltovisualPortrait({ width = 60, height = 80 }: AltovisualPortraitProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
@@ -37,10 +37,10 @@ export function AsciiPortrait({ width = 60, height = 80 }: AsciiPortraitProps) {
       // Clear canvas for redrawing
       ctx.clearRect(0, 0, adjustedWidth * 10, height * 10)
 
-      // ASCII characters from darkest to lightest
-      const asciiChars = ["@", "%", "#", "*", "+", "=", "-", ":", ".", " "]
+      // Altovisual characters from darkest to lightest
+      const altovisualChars = ["@", "%", "#", "*", "+", "=", "-", ":", ".", " "]
 
-      // Draw ASCII art
+      // Draw Altovisual art
       ctx.fillStyle = "#000"
       ctx.fillRect(0, 0, adjustedWidth * 10, height * 10)
 
@@ -55,9 +55,9 @@ export function AsciiPortrait({ width = 60, height = 80 }: AsciiPortraitProps) {
           // Calculate brightness
           const brightness = 0.299 * r + 0.587 * g + 0.114 * b
 
-          // Map brightness to ASCII character
-          const charIndex = Math.floor((brightness / 255) * (asciiChars.length - 1))
-          const char = asciiChars[charIndex]
+          // Map brightness to Altovisual character
+          const charIndex = Math.floor((brightness / 255) * (altovisualChars.length - 1))
+          const char = altovisualChars[charIndex]
 
           // Use color from image
           ctx.fillStyle = `rgb(${r},${g},${b})`
@@ -69,7 +69,7 @@ export function AsciiPortrait({ width = 60, height = 80 }: AsciiPortraitProps) {
   }, [width, height])
 
   return (
-    <div className="ascii-portrait-container flex justify-center my-4 overflow-hidden">
+    <div className="altovisual-portrait-container flex justify-center my-4 overflow-hidden">
       <div className="relative group">
         <canvas
           ref={canvasRef}

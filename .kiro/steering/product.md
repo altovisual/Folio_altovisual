@@ -9,7 +9,7 @@ This is a development portfolio website for altovisual, a full stack developer a
 - **Matrix Rain Background**: Animated Matrix-style code rain background with JavaScript
 - **Dark Theme**: Developer-focused dark aesthetic with CRT toggle option
 - **Interactive Sections**: About, education, skills, experience, projects, certifications, and contact information
-- **ASCII Art**: Custom ASCII logo and visual elements
+- **Altovisual Art**: Custom ASCII logo and visual elements
 - **Responsive Design**: Mobile-friendly terminal interface
 - **Internationalization**: Full English/Spanish language support
 

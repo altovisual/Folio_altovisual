@@ -72,14 +72,16 @@ export const translations = {
     technologies: "Technologies:",
     
     // Education section
-    educationTitle: "Education & Learning",
-    educationDegree: "Degree:",
+    educationTitle: "Education & Learning Philosophy",
+    educationIntro: "I am a firm believer in continuous learning to stay at the forefront of technology. This allows me to offer solid, cutting-edge solutions that solve real-world problems.",
+    educationDegree: "Higher Studies in Software Development & Design",
     educationGPA: "GPA:",
     educationDate: "Date:",
     relevantCoursework: "Relevant Coursework:",
     
     // Certifications section
-    certificationsTitle: "Certifications & Achievements",
+    certificationsTitle: "Training & Competencies",
+    competenciesTitle: "Training & Competencies",
     competitionsTitle: "Competitions & Achievements", 
     initiativesTitle: "Development Initiatives",
     
@@ -219,14 +221,16 @@ export const translations = {
     technologies: "Tecnologías:",
     
     // Education section
-    educationTitle: "Educación y Aprendizaje",
-    educationDegree: "Título:",
+    educationTitle: "Formación y Filosofía de Aprendizaje",
+    educationIntro: "Creo firmemente en el aprendizaje continuo para mantenerme a la vanguardia de la tecnología. Esto me permite ofrecer soluciones sólidas y vanguardistas que resuelven problemas del mundo real.",
+    educationDegree: "Estudios Superiores en Desarrollo de Software y Diseño",
     educationGPA: "Promedio:",
     educationDate: "Fecha:",
     relevantCoursework: "Materias Relevantes:",
     
     // Certifications section
-    certificationsTitle: "Certificaciones y Logros",
+    certificationsTitle: "Formación y Competencias",
+    competenciesTitle: "Formación y Competencias",
     competitionsTitle: "Competencias y Logros",
     initiativesTitle: "Iniciativas de Desarrollo",
     

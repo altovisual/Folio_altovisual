@@ -1,4 +1,4 @@
-import { AsciiArt } from "@/components/ascii-art"
+import { AltovisualArt } from "@/components/altovisual-art"
 import { useLanguage } from "@/contexts/language-context"
 
 export function ExperienceSection() {
@@ -6,7 +6,7 @@ export function ExperienceSection() {
   
   return (
     <div className="space-y-4">
-      <AsciiArt art="experience" />
+      <AltovisualArt art="experience" />
 
       <div className="space-y-6">
         <div className="relative pl-5 border-l border-primary/30">
@@ -16,7 +16,7 @@ export function ExperienceSection() {
               {language === 'es' ? 'Desarrollador Full Stack Senior' : 'Senior Full Stack Developer'}
             </h3>
             <p className="text-xs text-muted-foreground">
-              {language === 'es' ? 'Freelance | 2023 - Presente' : 'Freelance | 2023 - Present'}
+              {language === 'es' ? 'Freelance | 2021 - Presente' : 'Freelance | 2021 - Present'}
             </p>
           </div>
           <ul className="text-sm space-y-1 list-disc pl-4">
@@ -48,7 +48,7 @@ export function ExperienceSection() {
               {language === 'es' ? 'Diseñador de Marcas & UI/UX' : 'Brand Designer & UI/UX'}
             </h3>
             <p className="text-xs text-muted-foreground">
-              {language === 'es' ? 'Freelance | 2023 - Presente' : 'Freelance | 2023 - Present'}
+              {language === 'es' ? 'Freelance | 2019 - 2021' : 'Freelance | 2019 - 2021'}
             </p>
           </div>
           <ul className="text-sm space-y-1 list-disc pl-4">
@@ -80,7 +80,7 @@ export function ExperienceSection() {
               {language === 'es' ? 'Desarrollador Blockchain' : 'Blockchain Developer'}
             </h3>
             <p className="text-xs text-muted-foreground">
-              {language === 'es' ? 'Freelance | 2023 - Presente' : 'Freelance | 2023 - Present'}
+              {language === 'es' ? 'Freelance | 2022 - Presente' : 'Freelance | 2022 - Present'}
             </p>
           </div>
           <ul className="text-sm space-y-1 list-disc pl-4">
@@ -112,7 +112,7 @@ export function ExperienceSection() {
               {language === 'es' ? 'Desarrollador de Juegos & Automatización' : 'Game Developer & Automation Specialist'}
             </h3>
             <p className="text-xs text-muted-foreground">
-              {language === 'es' ? 'Freelance | 2023 - Presente' : 'Freelance | 2023 - Present'}
+              {language === 'es' ? 'Freelance | 2020 - 2022' : 'Freelance | 2020 - 2022'}
             </p>
           </div>
           <ul className="text-sm space-y-1 list-disc pl-4">

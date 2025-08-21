@@ -1,5 +1,5 @@
-import { AsciiArt } from "@/components/ascii-art"
-import { AsciiPortraitComparison } from "@/components/ascii-portrait-comparison"
+import { AltovisualArt } from "@/components/altovisual-art"
+import { AltovisualPortraitComparison } from "@/components/altovisual-portrait-comparison"
 import { useLanguage } from "@/contexts/language-context"
 
 export function AboutSection() {
@@ -7,11 +7,11 @@ export function AboutSection() {
   
   return (
     <div className="space-y-4">
-      <AsciiArt art="about" />
+      <AltovisualArt art="about" />
 
       <div className="flex flex-col md:flex-row gap-6">
         <div className="md:w-2/5">
-          <AsciiPortraitComparison />
+          <AltovisualPortraitComparison />
           <div className="text-center text-xs text-muted-foreground mt-2">
             altovisual
             <br />

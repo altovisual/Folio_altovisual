@@ -1,4 +1,4 @@
-export function AsciiArt({ art }: { art: string }) {
+export function AltovisualArt({ art }: { art: string }) {
   switch (art) {
     case "welcome":
       return (
