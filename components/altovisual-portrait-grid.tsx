@@ -116,7 +116,7 @@ export function AltovisualPortraitGrid({
         "7",
         "1",
         "/",
-        "\",
+        "\\
         "|",
         "(",
         ")",
